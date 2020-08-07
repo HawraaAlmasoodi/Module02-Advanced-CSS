@@ -1,0 +1,81 @@
+body {
+    background-color: white;
+}
+
+.container-1 {
+    border: solid lightgrey thin;
+    border-radius: 5px;
+}
+
+.container-2 {
+    border: solid lightgrey thin;
+    border-radius: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-areas: 
+    "info1 info2";
+    width: 600px;
+
+}
+
+.container-1 {
+    grid-area: info1;
+}
+
+.container-2 {
+    grid-area: info2;
+    margin-left: 20px;
+    
+
+}
+
+.Button-info1, .Button-info2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.describe1, .name1 {
+    margin: 0;
+}
+
+.describe2, .name2 {
+    margin: 0;
+}
+
+.describe1, .describe2 {
+    color: gray;
+}
+
+.info-persoon1, .info-persoon2 {
+    margin-left: 10px ;
+}
+
+.name1, .name2 {
+    margin-top: 10px;
+}
+
+p {
+    color: lightslategray;
+    }
+
+.groen {
+    color: green;
+    border: solid green thin;
+    background-color: white;
+    padding: 5px 30px;
+    margin: 0;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.red {
+    color: red;
+    border: solid red thin;
+    background-color: white;
+    padding: 5px 30px;
+    margin: 0;
+    font-size: medium;
+    font-weight: 600;
+}

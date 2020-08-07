@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+}
+
+.first li a:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.inline2 a:active {
+    color: red;
+    font-family: cursive;
+}
+
+.inline3 a:visited {
+    color: yellow;
+}
+
+.groeninput:focus {
+    color: green;
+    width: 20px;
+}
+
+.footer-menu {
+    background-color: pink;
+    margin-top: 30px;
+    list-style-type: none;
+    
+}
+
+.footer-menu ul {
+    padding-left: 0;
+}
+
+.item-list li {
+    display: inline;
+      
+}
+
+li a {
+    text-decoration: none;
+}
+#item1 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#item2 {
+    margin-left: 20px;
+}
+
+#item3 {
+    margin-left: 20px;
+}
+
+.geel-border {
+    border: 1.5px solid black;
+  }
+
+
+.current-page a:hover {
+    color: red;
+}
+.nav-bar  a:hover {
+    background-color: chartreuse;
+}
+
+.geel-border:focus {
+    border: 1.5px solid yellow;
+}
+

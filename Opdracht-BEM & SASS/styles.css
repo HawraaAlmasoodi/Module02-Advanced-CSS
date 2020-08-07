@@ -1,0 +1,33 @@
+.vierkant {
+  background-color: #9c1a9c;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+}
+
+.vierkant__cirkel {
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.vierkant--andersom {
+  background-color: white;
+  border: black solid thin;
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+  padding: 50px;
+}
+
+.vierkant__cirkel--andersom {
+  background-color: #9c1a9c;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+/*# sourceMappingURL=styles.css.map */

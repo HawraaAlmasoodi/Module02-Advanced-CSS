@@ -1,0 +1,25 @@
+
+@import "./mixin";
+.vierkant{
+    background-color: rgb(156, 26, 156);
+    @include vierkant-blok;
+   
+}
+
+.vierkant__cirkel {
+    background-color: white;
+    @include cirkel-blok;
+     
+}
+.vierkant--andersom {
+    background-color: white;
+    border: black solid thin;
+    @include vierkant-blok;
+   
+}
+
+.vierkant__cirkel--andersom {
+    background-color:  rgb(156, 26, 156) ;
+    @include cirkel-blok;
+}
+

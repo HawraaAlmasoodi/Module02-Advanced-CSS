@@ -1,0 +1,15 @@
+
+
+@mixin cirkel-blok {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+@mixin vierkant-blok {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+}

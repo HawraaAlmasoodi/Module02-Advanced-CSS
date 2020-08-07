@@ -1,0 +1,44 @@
+
+
+body     {
+  background:#231F20;
+  text-align:center;
+}
+
+h1         {
+  color:#FFF;
+  font-family:'Oswald';
+  font-weight:700;
+  position:relative;  
+  margin:30px auto;
+  text-transform:uppercase;
+  width:700px;
+}
+
+h1::before {
+    content: " ";
+    background-color: royalblue;
+    display: inline-block;
+    height: 30px;
+    width: 25px;
+    position: absolute;
+    top: 9px;
+    left: 0;
+    border-radius: 20px 0 0 20px;
+  
+}
+    
+
+
+h1::after {
+    content: " ";
+    background-color: royalblue;
+    display: inline-block;
+    height: 30px;
+    width: 25px;
+    position: absolute;
+    top: 9px;
+    right: 0;
+    border-radius: 0 20px 20px 0;
+    
+}
